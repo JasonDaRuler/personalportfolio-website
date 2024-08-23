@@ -70,22 +70,13 @@ nav ul li a:hover::after{
     font-size: 30px;
 }
 
-/* .header-text p{
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-} */
-
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
-    /* font-family: "Roboto", sans-serif;
-    font-weight: bold; */
 }
 
 .header-text h1 span{
     color: #024d1d;
-    /* font-family: "Roboto", sans-serif;
-    font-weight: bold; */
 }
 /*---------about----------*/
 #about{
@@ -110,23 +101,17 @@ nav ul li a:hover::after{
 
 .about-col-2{
     flex-basis: 60%;
-    font-family: "M+Plus+Rounded+1c:Nunito", sans-serif;
-    font-weight: lighter;
 }
 
 .sub-title{
     font-size: 60px;
     font-weight: 600;
     color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
 }
 
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
 }
 
 .tab-links{
@@ -135,8 +120,6 @@ nav ul li a:hover::after{
     font-weight: 500;
     cursor: pointer;
     position: relative;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
 }
 
 .tab-links::after{
@@ -157,21 +140,15 @@ nav ul li a:hover::after{
 .tab-contents ul li{
     list-style: none;
     margin: 8px 0;
-    font-family: "Roboto", sans-serif;
-    font-weight: normal;
     font-size: 14px;
 }
 
 .tab-contents ul li span{
     color: #2d8032;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bolder;
 }
 
 .tab-contents ul li p{
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
     font-size: 16px;
 }
 
@@ -257,7 +234,12 @@ nav ul li a:hover::after{
 }
 
 .contact-right{
+    margin-top: 30px;
     flex-basis: 60%;
+}
+
+.contact-left h1{
+    margin-top: 30px;
 }
 
 .contact-left p{
